@@ -26,7 +26,7 @@ Bindings
 -----------
 **scrollback** with `alt-↑/↓` or `alt-i/k`.
 
-**zoom/change font size**: `alt-shift-↑/↓` or `al-shift-i/k`; `alt-home` returns to default.
+**zoom/change font size**: `alt-shift-↑/↓` or `al-shift-i/k`; `alt-space` returns to default.
 
 **copy text** with `alt-c`, **paste** is `alt-v`.
 
