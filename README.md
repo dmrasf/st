@@ -7,6 +7,10 @@ Requirements
 ------------
 In order to build st you need the Xlib header files.
 
+`tty-joypixel`
+
+`libx-bgra`
+
 
 Installation
 ------------
@@ -18,17 +22,13 @@ necessary as root):
 
     make clean install
 
+Bindings
+-----------
+**scrollback** with `alt-↑/↓` or `alt-i/k`.
 
-Running st
-----------
-If you did not install st with make clean install, you must compile
-the st terminfo entry with the following command:
+**zoom/change font size**: `alt-shift-↑/↓` or `al-shift-i/k`; `alt-home` returns to default.
 
-    tic -sx st.info
+**copy text** with `alt-c`, **paste** is `alt-v`.
 
-See the man page for additional details.
 
-Credits
--------
-Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
